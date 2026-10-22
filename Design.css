@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Developing Soft Skills and Personality</title>
+  <style>
+    body {
+  font-family: Arial;
+  font-size: 18px;
+  color: #263445;
+  border: 2px solid #d6e4f0;
+  border-radius: 12px;
+  margin: 16px;
+  padding: 12px;
+}
+h1{
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+  background-color: #eaf1fb;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+h2 {
+  color: darkblue;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 14px;
+  padding: 8px;
+  border-bottom: 2px solid #d6e4f0;
+}
+h3 {
+  color: #333;
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 12px;
+  padding: 6px;
+  border-left: 4px solid #2e6d5a;
+}
+h4 {
+  color: #444;
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e0b89f;
+}
+h5 {
+  color: #555;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 8px;
+  border-left: 3px solid #7b4397;
+}
+h6 {
+  color: #666;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 6px;
+  border-bottom: 1px dotted #d4b85a;
+}
+p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #2f3b46;
+  font-size: 18px;
+  text-indent: 40px;
+  letter-spacing: 0.2px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 6px;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin: 4px 0;
+  padding: 5px 8px;
+  background-color: #f0f5ff;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+  background-color: #eef4ff;
+border-radius: 5px;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 32px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  list-style-position: outside;
+}
+li {
+  line-height: 1.8;
+  padding: 4px 0;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-size: 18px;
+  text-align: left;
+  word-spacing: 1px;
+  letter-spacing: 0.2px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-color: #d9e2ec;
+}
+th {
+  background-color: #eaf1fb;
+  font-weight: bold;
+  color: #17365d;
+  padding: 12px;
+  font-size: 18px;
+}
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 12px;
+  line-height: 1.5;
+}
+b {
+  font-weight: bold;
+}
+u {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+::selection {
+  background-color: #cce5ff;
+  color: #222;
+}
+.week-section {
+  border: 10px solid #ddd;
+  padding: 20px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border-color: #d6d6d6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.week-section h2 {
+  color: #17365d;
+  background-color: #eef4ff;
+  padding: 10px;
+  border-radius: 6px;
+}
+.week-section h3 {
+  color: #2e6d5a;
+  background-color: #eaf5ef;
+  padding: 8px;
+  border-radius: 6px;
+}
+.week-section h4 {
+  color: #a0522d;
+  background-color: #fff1e6;
+  padding: 7px;
+  border-radius: 5px;
+}
+.week-section h5 {
+  color: #7b4397;
+  background-color: #f5edfa;
+  padding: 6px;
+  border-radius: 5px;
+}
+.week-section h6 {
+  color: #b8860b;
+  background-color: #fff8dc;
+  padding: 6px;
+  border-radius: 5px;
+}
+tr:nth-child(even) {
+  background-color: #f7f9fc;
+}
+.week-section p {
+  padding: 4px;
+}
+.week-section {
+  margin-left: 8px;
+  margin-right: 8px;
+  border-width: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  overflow-wrap: anywhere;
+  box-shadow: none;
+  break-inside: avoid;
+  border: 5px solid red;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 8px;
+}
+strong {
+  color: #17365d;
+  font-weight: bold;
+  background-color: #eef4ff;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #d6e4f0;
+  margin: 25px 0;
+  border-radius: 2px;
+}
+blockquote {
+  background-color: #f5f8fc;
+  border-left: 4px solid #4a78a8;
+  padding: 12px 16px;
+  margin: 20px 10px;
+  border-radius: 6px;
+  color: #34495e;
+  line-height: 1.8;
+}
+code {
+  background-color: #f1f3f5;
+  color: #c7254e;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 16px;
+}
+pre {
+  background-color: #f5f7fa;
+  color: #263445;
+  padding: 16px;
+  border: 1px solid #d6e4f0;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+button {
+  background-color: #17365d;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #2e6d9f;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+input:focus {
+  border-color: #2e6d9f;
+}
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  box-sizing: border-box;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+textarea:focus {
+  border-color: #2e6d9f;
+}
+label {
+  display: block;
+  color: #17365d;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #263445;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+fieldset {
+  border: 1px solid #d6e4f0;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 20px 0;
+  background-color: #f8fbff;
+}
+legend {
+  color: #17365d;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 8px;
+}
+figure {
+  margin: 24px auto;
+  padding: 12px;
+  max-width: 700px;
+  background-color: #f8fbff;
+  border: 1px solid #d6e4f0;
+  border-radius: 10px;
+  text-align: center;
+}
+mark {
+  background-color: #fff2a8;
+  color: #263445;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+abbr {
+  text-decoration: underline dotted;
+  text-decoration-color: #4a78a8;
+  text-underline-offset: 4px;
+  cursor: help;
+}
+kbd {
+  background-color: #263445;
+  color: #ffffff;
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 15px;
+  box-shadow: 0 2px 0 #9aa5b1;
+}
+del {
+  color: #b42318;
+  text-decoration: line-through;
+  text-decoration-color: #b42318;
+  opacity: 0.8;
+}
+ins {
+  color: #176b45;
+  text-decoration: underline;
+  text-decoration-color: #2e8b57;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  background-color: #edf9f1;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+/* 1. গুরুত্বপূর্ণ শব্দের হাইলাইট */
+mark {
+  background-color: #fff2a8;
+  color: #263445;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+/* 2. সংক্ষিপ্ত শব্দের পরিচয় */
+abbr {
+  text-decoration: underline dotted;
+  text-decoration-color: #4a78a8;
+  text-underline-offset: 4px;
+  cursor: help;
+}
+/* 3. কিবোর্ডের শর্টকাট */
+kbd {
+  background-color: #263445;
+  color: #ffffff;
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 15px;
+  box-shadow: 0 2px 0 #9aa5b1;
+}
+/* 4. কাটা বা বাতিল করা লেখা */
+del {
+  color: #b42318;
+  text-decoration: line-through;
+  text-decoration-color: #b42318;
+}
+/* 5. নতুন যোগ করা লেখা */
+ins {
+  color: #176b45;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+/* 6. ছোট অক্ষরের লেখা */
+small {
+  font-size: 14px;
+  color: #5b6573;
+  line-height: 1.6;
+}
+/* 7. উপরে বা নিচে ছোট অক্ষর */
+sup,
+sub {
+  font-size: 75%;
+  line-height: 0;
+}
+/* 8. তালিকার বুলেটের রং */
+li::marker {
+  color: #2e6d9f;
+}
+/* 9. ভাঁজ করে খোলা যায় এমন অংশ */
+details {
+  background-color: #f8fbff;
+  border: 1px solid #d6e4f0;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 16px 0;
+}
+summary {
+  color: #17365d;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px;
+}
+/* 10. কনটেন্টের নিচে ক্যাপশন */
+caption {
+  color: #5b6573;
+  font-size: 15px;
+  padding: 8px;
+  text-align: left;
+}
+/* 11. কিবোর্ড দিয়ে লিংক নির্বাচন */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #4a78a8;
+  outline-offset: 3px;
+}
+/* 12. ছোট স্ক্রিনে ডিজাইন ঠিক রাখা */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  p {
+    overflow-wrap: anywhere;
+  }
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* 13. প্রিন্ট করার সময় */
+@media print {
+  a {
+    color: #000000;
+    background: none;
+    text-decoration: underline;
+  }
+  button {
+    display: none;
+  }
+}
+.closing-example p {
+    border-left: 4px solid #dddddd;
+    padding-left: 20px;
+    margin: 20px 0;
+    text-indent: 0;
+}
+p u {
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+}
+  </style>
+  <!-- CSS END -->
+</head>
+<body>
+  <h1>
+    <b><u>Developing Soft Skills and Personality</u></b>
+  </h1>
+
